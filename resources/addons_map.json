@@ -1,0 +1,222 @@
+{
+  "supported_addons": [
+    {
+      "id": "plugin.video.fenlight",
+      "name": "Fen Light",
+      "services": {
+        "trakt": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.fenlight/?mode=trakt.trakt_authenticate",
+            "label": "Trakt Auth"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.fenlight/?mode=real_debrid.authenticate",
+            "label": "Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.fenlight/?mode=premiumize.authenticate",
+            "label": "Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.fenlight/?mode=alldebrid.authenticate",
+            "label": "All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.fenlight/?mode=torbox.authenticate",
+            "label": "Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.redlight",
+      "name": "Red Light",
+      "services": {
+        "trakt": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.redlight/?mode=trakt.trakt_authenticate",
+            "label": "Trakt Auth"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.redlight/?mode=real_debrid.authenticate",
+            "label": "Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.redlight/?mode=premiumize.authenticate",
+            "label": "Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.redlight/?mode=alldebrid.authenticate",
+            "label": "All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.redlight/?mode=torbox.authenticate",
+            "label": "Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.gears",
+      "name": "The Gears",
+      "services": {
+        "trakt": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.gears/?mode=trakt.trakt_authenticate",
+            "label": "Trakt Auth"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.gears/?mode=real_debrid.authenticate",
+            "label": "Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.gears/?mode=premiumize.authenticate",
+            "label": "Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.gears/?mode=alldebrid.authenticate",
+            "label": "All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.gears/?mode=torbox.authenticate",
+            "label": "Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.umbrella",
+      "name": "Umbrella",
+      "services": {
+        "trakt": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.umbrella/?action=traktAuth",
+            "label": "Trakt Auth"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.umbrella/?action=rd_Authorize",
+            "label": "Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.umbrella/?action=pm_Authorize",
+            "label": "Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.umbrella/?action=ad_Authorize",
+            "label": "All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.umbrella/?action=tb_Authorize",
+            "label": "Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.pov",
+      "name": "POV",
+      "services": {
+        "trakt": [
+          {
+            "type": "builtin",
+            "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
+            "label": "Open My Services"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "builtin",
+            "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
+            "label": "Open My Services"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "builtin",
+            "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
+            "label": "Open My Services"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "builtin",
+            "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
+            "label": "Open My Services"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "builtin",
+            "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
+            "label": "Open My Services"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.themoviedb.helper",
+      "name": "TMDb Helper",
+      "services": {
+        "trakt": [
+          {
+            "type": "builtin",
+            "value": "RunScript(plugin.video.themoviedb.helper,authenticate_trakt)",
+            "label": "Authenticate Trakt"
+          }
+        ]
+      }
+    }
+  ]
+}
