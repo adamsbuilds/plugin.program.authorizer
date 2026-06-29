@@ -124,6 +124,47 @@
       }
     },
     {
+      "id": "plugin.video.thechains",
+      "name": "The Chains",
+      "services": {
+        "trakt": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.thechains?mode=205&url=www",
+            "label": "Trakt Auth"
+          }
+        ],
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.thechains?mode=138&url=www",
+            "label": "Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.thechains?mode=140&url=www",
+            "label": "Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.thechains?mode=142&url=www",
+            "label": "All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://plugin.video.thechains?mode=208&url=www",
+            "label": "Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
       "id": "plugin.video.umbrella",
       "name": "Umbrella",
       "services": {
@@ -201,6 +242,101 @@
             "type": "builtin",
             "value": "PlayMedia(\"plugin://plugin.video.pov/?mode=myservices&name=My+Services&isFolder=false\")",
             "label": "Open My Services"
+          }
+        ]
+      }
+    },
+    {
+      "id": "plugin.video.the-loop",
+      "name": "The Loop",
+      "services": {
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_rd",
+            "label": "ResolveURL Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_pm",
+            "label": "ResolveURL Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_ad",
+            "label": "ResolveURL All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_tb",
+            "label": "ResolveURL Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "script.module.resolveurl",
+      "name": "ResolveURL",
+      "services": {
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_rd",
+            "label": "ResolveURL Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_pm",
+            "label": "ResolveURL Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_ad",
+            "label": "ResolveURL All-Debrid Auth"
+          }
+        ],
+        "torbox": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.resolveurl/?mode=auth_tb",
+            "label": "ResolveURL Torbox Auth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "script.module.urlresolver",
+      "name": "URLResolver",
+      "services": {
+        "realdebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.urlresolver/?mode=auth_realdebrid",
+            "label": "URLResolver Real-Debrid Auth"
+          }
+        ],
+        "premiumize": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.urlresolver/?mode=auth_pm",
+            "label": "URLResolver Premiumize Auth"
+          }
+        ],
+        "alldebrid": [
+          {
+            "type": "plugin",
+            "value": "plugin://script.module.urlresolver/?mode=auth_ad",
+            "label": "URLResolver All-Debrid Auth"
           }
         ]
       }
